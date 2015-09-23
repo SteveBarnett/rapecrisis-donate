@@ -1,0 +1,158 @@
+/*typography*/
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+.uc {
+  text-transform: uppercase;
+}
+
+.lede {
+  /*intro paragraph that's centered and italic*/
+}
+
+.has-dropcap {
+  /*use :first-letter to add purple circle dropcap*/
+}
+
+/*article*/
+
+.article-2up {
+  /*use css columns on larger screens*/
+}
+
+.article-half-left {
+  /*pad the article a lot to one side to make room for the image*/
+  /*swap out images at different screen sizes*/
+}
+
+.article-topic-name {
+  /*specific bg image for specific topics*/
+}
+
+.article-two-thirds {
+
+}
+
+/*lists*/
+
+.no-bull {
+  list-style-none;
+}
+
+.no-mp {
+  margin: 0;
+  padding: 0;
+}
+
+.list-big-numbers {
+  /*big numbers, in a purple circle, with white text*/
+}
+
+.list-icon {
+  /*shared styles for all list icons*/
+  /*set the big bg image that contains all the sprites*/
+  /*set display, width and height*/
+}
+
+.list-icon-name {
+  /*set bg position to show correct icon*/
+}
+
+.list-imaged {
+  /*like list-icon*/
+  /*set circled on these too*/
+}
+
+/*buttons*/
+
+btn {
+  /*make some links look button-y*/
+  /*rounder corners, etc*/
+  /*default bg should be green? seems most popular.*/
+  /*that would mean we can dtich btn-donate*/
+}
+
+.btn-donate {
+  /*green bg*/
+  /*white text*/
+}
+
+.btn-group-download {
+  /*first one green*/
+  /*second one more blue*/
+  /*third one even more blue*/
+  /*use nth-child(3) to change the bg colours or links inside this div*/
+}
+
+/*panels*/
+
+.panel {
+  /*styles that all panels use*/
+  /*centering?*/
+}
+
+.panel-3up {
+  /*one col -> three cols*/
+}
+
+.panel-4up {
+  /*one col -> two cols -> four cols*/
+}
+
+
+
+/*backgrounds*/
+
+.bg-alt {
+  /*grey bg*/
+}
+
+.bg-inv {
+  /*purple-gb*/
+}
+
+/*images*/
+
+.circled {
+  border-radius: 50%;
+}
+
+/*icons*/
+
+.icon {
+  /*shared styles for all icons*/
+  /*set the big bg image that contains all the sprites*/
+  /*set display, width and height*/
+}
+
+.icon-alt {
+  /*grey bg*/
+}
+
+.icon-inv {
+  /*purple-gb*/
+}
+
+.icon-name {
+  /*set bg position to show correct icon*/
+}
+
+
+/*layout*/
+
+/*12 col grid system*/
+/*look at foundation and bootstrap*/
+
+.l-tac {
+  text-align: center;
+}
+
+.l-tal {
+  text-align: left;
+}
+
+.l-tar {
+  text-align: right;
+}
